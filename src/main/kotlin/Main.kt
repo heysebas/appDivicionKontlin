@@ -19,6 +19,14 @@ fun main(args: Array<String>) {
     }
 }
 
+/**
+ * Realiza la división de dos números enteros utilizando recursión.
+ *
+ * @param dividendo El número que se va a dividir.
+ * @param divisor El divisor.
+ * @return El resultado de la división.
+ * @throws IllegalArgumentException Si el divisor es cero.
+ */
 fun dividir(dividendo: Int, divisor: Int): Int {
     if (divisor == 0) {
         throw IllegalArgumentException("El divisor no puede ser cero")
